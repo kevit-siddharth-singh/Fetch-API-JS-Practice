@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: black;
+  color: white;
+  padding: 0%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+.wrapper h1 {
+  background-color: #615efc;
+  padding: 10px 20px;
+  
+  margin: 0;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.api-data {
+  /* width: 100%; */
+  color: black;
+
+  background-color: #45af53;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.api-data input {
+  width: 300px;
+  all: unset;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  padding: 7px;
+  padding-left: 10px;
+  background-color: #fff;
+}
+
+.api-data button {
+  font-weight: 600;
+  width: 110px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #126ef7;
+  border: none;
+  color: white;
+  box-shadow: 1px 1px 3px black;
+}
+
+.data {
+  display: flex;
+ 
+  background-color: #f33c76;
+  border-radius: 10px;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 25px 20px;
+}
+
+#img-section {
+  background-color: #45af53;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 30%;
+}
+
+#img-section img{
+    width: 170px;
+    height: 130px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.data-section {
+  background-color: #615efc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+.data-section p {
+  margin: 0;
+}
+
+
+#mv-name p{
+    margin: 5px 2px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    background-color: transparent;
+    padding: 5px;
+
+}
+
+#mv-name p:hover{
+    background-color: #45af53;
+    border-radius: 10px;
+    
+}
+
+.banner{
+    
+    border-radius: 10px;
+    padding: 10px;
+    
+    font-size: 25px;
+}
+
+
+#movie-input{
+  transition: ease-out 0.2s;
+}
+#movie-input:hover{
+  box-shadow: 1px 4px 5px  black;
+
+}
